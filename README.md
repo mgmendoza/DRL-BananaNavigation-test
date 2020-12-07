@@ -24,5 +24,5 @@ Given this information, the agent has to learn how to best select actions. Four 
 
 The task is episodic, and in order to solve the environment, your agent must get an average score of +13 over 100 consecutive episodes.
 
-##Getting Started
+## Getting Started
 
