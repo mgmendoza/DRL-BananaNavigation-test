@@ -35,4 +35,4 @@ The task is episodic, and in order to solve the environment, your agent must get
 4. Place the file in the DRLND GitHub repository, in the p1_navigation/ folder, and unzip (or decompress) the file.
 
 ## Instructions
-Follow the instructions in Banana_Collector.ipynb to get started with training your own agent!
+Follow the instructions in Banana_Collector.ipynb to get started with training your own agent! You should be able to watch your agent collect bananas correctly. 
