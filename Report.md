@@ -24,7 +24,7 @@ The task is episodic, and in order to solve the environment, the agent must get 
 
 The structure of how this repository was impleted is derived from the "Lunar Lander" repo from the Deep Reinforcement Learning Nanodegree, and has been adjusted for the purpose of this project. 
 
-The code consist of :
+The code consists of :
 
 * model.py : Here is where the Actor policy model is implemented with PyTorch and QNetwork class. There are two fully connected Deep Neural Network using the PyTorch Framework. It uses a forward neural netowrk architecture with reLu activation functions: '<fc1_units=256, fc2_units=128>.'
 
