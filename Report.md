@@ -8,15 +8,15 @@ The high-level steps taken in training an agent following the '<Banana_Collector
 * Step 2: Evaluate the state and action space
 * Step 3: Establish baseline using a random action policy. 
 * Step 4: Implement learning DQN algorithm: 
-** Initialize the replay memory
-** Initialize action-value function with random weights
-** Initialize target action-value weights
-** Choose an action using epsilon-greedy methods
-** Perform an action
-** Measure reward
-** Preapre next state and store experience tuple
-** Obtain random minibatch of tuples
-** Set target and update 
+	* Initialize the replay memory
+	* Initialize action-value function with random weights
+	* Initialize target action-value weights
+	* Choose an action using epsilon-greedy methods
+	* Perform an action
+	* Measure reward	
+	* Prepare next state and store experience tuple
+	* Obtain random minibatch of tuples
+	* Set target and update 
 The task is episodic, and in order to solve the environment, the agent must get an average score of +13 over 100 consecutive episodes
 * Step 5: Loading the trained model into the environment to watch it perform
 
@@ -29,11 +29,11 @@ The code consist of :
 * model.py : Here is where the Actor policy model is implemented with PyTorch and QNetwork class. There are two fully connected Deep Neural Network using the PyTorch Framework. It uses a forward neural netowrk architecture with reLu activation functions: '<fc1_units=256, fc2_units=128>.'
 
 * dqn_bnagent.py : Here is where the learning algorithm is implemented: 
-*** Initialize an agent object
-*** Return actions for given state as per current policy
-*** Update value parameters using given batch of experience tuples or model parameters
-*** Initialize a ReplayBuffer
-*** Randomly sample a batch of experiences from memory
+	* Initialize an agent object
+	* Return actions for given state as per current policy
+	* Update value parameters using given batch of experience tuples or model parameters
+	* Initialize a ReplayBuffer
+	* Randomly sample a batch of experiences from memory
 
 You will start by specifying the Hyperparameters:
 ```
@@ -46,7 +46,7 @@ UPDATE_EVERY = 4        # how often to update the network
 ```
 In ```class Agent():``` you will have:
 
-the _int_ function to interact and learn from the environment, this function will call the QNetwork class from model.py
+the _init_ function to interact and learn from the environment, this function will call the QNetwork class from model.py
 
 ``` 
 def __init__(self, state_size, action_size, seed):
