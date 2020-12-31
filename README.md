@@ -3,7 +3,8 @@
 ### Background
 This project is part of the first assignment of the Udacity Deep Reinforcement Learning Nanodegree. 
 
-![Here is a GIF of my trained banana collector: ](GIF\trained_banana.gif)
+Here is a GIF of my trained banana collector: 
+![](GIF/trained_banana.gif)
 
 ## Introduction
 This project trains an agent to navigate and collect bananas in a square world
